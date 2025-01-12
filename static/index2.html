@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Microsoft Teams</title>
+	<link rel="shortcut icon" href="assets/images/branding/favicon.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+	<main class="container">
+		<div class="brand">P45</div>
+		<input type="text" class="data" placeholder="Search Google or type a URL" spellcheck="false" autocomplete="off">
+		<div class="apps">
+			<a class="app" onclick="go('https://google.com')">
+				<div class="app-name">Google</div>
+			</a>
+			<a class="app" onclick="go('https://youtube.com')">
+				<div class="app-name">YouTube</div>
+			</a>
+			<a class="app" onclick="go('https://quran.com/')">
+				<div class="app-name">Quran</div>
+			</a>
+			<a class="app" onclick="go('https://sunnah.com')">
+				<div class="app-name">Hadith</div>
+			</a>
+		</div>
+		<a class="func" id="func" onclick="blank3()">
+			<div class="app-name material-symbols-outlined">Iframe</div>
+		</a>
+	</main>
+<script src="./uv/uv.bundle.js"></script>
+<script src="./uv/uv.config.js"></script>
+<script src="assets/js/go.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
